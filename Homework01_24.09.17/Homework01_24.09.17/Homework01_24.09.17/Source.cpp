@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
         std::cout << ">> ";
         std::cin >> command;
 
-        if (command == "add") {
+        if (command == "add") {    // Лучше переписать это через switch-case
             std::string text;
             std::cout << "Enter text: ";
             std::cin >> text;
